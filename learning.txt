@@ -1,0 +1,17 @@
+1.rustc:-
+  a)compile file_name.rs file using rustc this will create a .exe file. 
+  b)the .exe file above can be run directly using ./file_name.exe.
+
+2)cargo:-
+  a)cargo new directory_name like `hello_cargo`.
+  b_above step will create a new new directory name hello cargo.
+  c)to create .exe file do `cargo build` inside the directory this will create .exe file of .rs file.
+  d)then execute the code using `.\target\debug\hello_cargo.exe`.
+
+                                      OR
+
+  just type `cargo run` in the directory this will run both compile and run step in single step.
+
+3)cargo check:-
+  Cargo also provides a command called cargo check. 
+  This command quickly checks your code to make sure it compiles but doesn’t produce an executable 
